@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.peter.smartmedicalserver.SmartMedicalServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.361 s <<< FAILURE! - in com.peter.smartmedicalserver.SmartMedicalServerApplicationTests
+contextLoads  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalArgumentException: Unable to instantiate org.mybatis.spring.boot.autoconfigure.MybatisDependsOnDatabaseInitializationDetector [org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector]
+Caused by: java.lang.UnsupportedClassVersionError: org/mybatis/spring/boot/autoconfigure/MybatisDependsOnDatabaseInitializationDetector has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+
