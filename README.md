@@ -1,2 +1,3 @@
 # employee-evaluation
-这是在25年第一次使用vibe-coding的成果，适用于部门的绩效管理
+This is the output from my first vibe-coding attempt back in 2025, built for department performance management.
+Make a note; anyone who needs it can download and use it.
